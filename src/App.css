@@ -1,0 +1,50 @@
+.main-logo{
+    height: 90px;
+    width: 90px;
+}
+.logo-wrap{
+    width: 90px;
+}
+.logo-text{
+    margin-top: 15px;
+    margin-left: 10px ;
+    font-size: 30pt;
+    color: #00ffff;
+}
+.baner{
+    position: relative;
+    height: 800px;
+}
+.head{
+    position: absolute;
+}
+.vodolas{
+    height: 881px;
+    width: 100%;
+}
+.circle{
+    background-color: mediumblue;
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    margin-top: 50px;
+}
+.head-text{
+    width: 100%;
+    font-size: 24pt;
+    text-align: center;
+    margin-top: 200px;
+    color: #00ffff;
+
+}
+.main-text{
+    color: #00ffff;
+    font-size: 20pt;
+    margin-top: 30px;
+}
+.text-wrap{
+    position: absolute;
+    text-align: center;
+}
