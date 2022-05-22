@@ -4,6 +4,9 @@
 }
 .logo-wrap{
     width: 90px;
+    margin-left: 10px ;
+    margin-top: 10px ;
+    margin-bottom: 10px ;
 }
 .logo-text{
     margin-top: 15px;
@@ -17,6 +20,8 @@
 }
 .head{
     position: absolute;
+    background-color: mediumblue;
+    width: 100%;
 }
 .vodolas{
     height: 881px;
@@ -30,6 +35,7 @@
     margin: auto;
     position: relative;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 .head-text{
     width: 100%;
