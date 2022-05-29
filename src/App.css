@@ -2,55 +2,347 @@
     height: 90px;
     width: 90px;
 }
+body{
+    background:aqua !important;
+}
 .logo-wrap{
     width: 90px;
     margin-left: 10px ;
     margin-top: 10px ;
     margin-bottom: 10px ;
 }
-.logo-text{
-    margin-top: 15px;
-    margin-left: 10px ;
-    font-size: 30pt;
-    color: #00ffff;
-}
-.baner{
-    position: relative;
-    height: 800px;
-}
+
 .head{
     position: absolute;
     background-color: mediumblue;
     width: 100%;
 }
 .vodolas{
-    height: 881px;
+    height: 981px;
     width: 100%;
 }
 .circle{
-    background-color: mediumblue;
-    height: 600px;
-    width: 600px;
-    border-radius: 50%;
+    margin-top: 200px !important;
+    margin-bottom: 50px !important;
+    height: 694px;
+    width: 694px;
     margin: auto;
-    position: relative;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    background: radial-gradient(circle at 65% 15%, lightblue, darkblue);
+    border-radius: 50%;
 }
 .head-text{
-    width: 100%;
+    width: 694px;
     font-size: 24pt;
     text-align: center;
     margin-top: 200px;
     color: #00ffff;
+    text-shadow:1px 1px 2px black, 0 0 3em black;
 
 }
 .main-text{
     color: #00ffff;
     font-size: 20pt;
     margin-top: 30px;
+    width: 694px;
+    text-shadow:1px 1px 2px black, 0 0 3em black;
 }
 .text-wrap{
     position: absolute;
     text-align: center;
+}
+.text{
+    font-size: 100px;
+    position: absolute;
+    margin-top: 800px;
+    color: #00ffff;
+    text-align: center;
+    width: 100%;
+    
+}
+.footer{
+    height: 200px;
+    background-color:mediumblue;
+}
+.layer{
+    z-index: 3;
+    position: relative;
+}
+.unscrolable{
+    background-color: white;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px; 
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1;
+}
+.diver{
+    height: 180px;
+    width: 180px;
+   
+}
+.img-wrap{
+    position: relative;
+    z-index: 1;
+}
+.forma{
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.ant-form-item-control{
+    padding: auto;
+}
+.zag{
+   text-align: center;
+}
+@media screen and (max-width: 1280px){
+    .diver{
+        height: 160px;
+        width: 160px;
+       
+    }
+    .footer{
+        height: 180px;
+    }
+    .main-logo{
+        height: 70px;
+        width: 70px;
+    }
+    .logo-wrap{
+        width: 70px;
+    }
+    .head-text{
+        width: 654px;
+        font-size: 24pt;
+        text-align: center;
+        margin-top: 180px;
+    }
+    .circle{
+        margin-top: 180px !important;
+        margin-bottom: 50px !important;
+        height: 674px;
+        width: 674px;
+    }
+    .vodolas{
+        height: 851px;
+    }
+    .text{
+        font-size: 70px;
+        position: absolute;
+        margin-top: 700px;
+    }
+    .main-text{
+        width: 654px;
+    }
+    .unscrolable{
+        bottom: 30px;
+       
+}
+}
+@media screen and (max-width: 1080px){
+    .diver{
+        height: 120px;
+        width: 120px;
+       
+    }
+    .footer{
+        height: 120px;
+    }
+    .main-logo{
+        height: 60px;
+        width: 60px;
+    }
+    .logo-wrap{
+        width: 60px;
+    }
+    .head-text{
+        width: 604px;
+        font-size: 24pt;
+        text-align: center;
+        margin-top: 200px;
+    }
+    .circle{
+        margin-top: 180px !important;
+        margin-bottom: 50px !important;
+        height: 604px;
+        width: 604px;
+    }
+    .vodolas{
+        height: 810px;
+    }
+    .text{
+        font-size: 70px;
+        position: absolute;
+        margin-top: 609px;
+    }
+    .main-text{
+        width: 634px;
+    }
+    .unscrolable{
+        height: 120px;
+        width: 120px; 
+        bottom: 70px;
+       
+}
+}
+@media screen and (max-width: 766px){
+    .diver{
+        height: 90px;
+        width: 90px;
+       
+    }
+    .footer{
+        height: 90px;
+    }
+    .main-logo{
+        height: 50px;
+        width: 50px;
+    }
+    .logo-wrap{
+        width: 50px;
+    }
+    .head-text{
+        width: 534px;
+        font-size: 24pt;
+        text-align: center;
+        margin-top: 200px;
+    }
+    .circle{
+        margin-top: 180px !important;
+        margin-bottom: 50px !important;
+        height: 534px;
+        width: 534px;
+    }
+    .vodolas{
+        height: 760px;
+    }
+    .text{
+        font-size: 70px;
+        position: absolute;
+        margin-top: 529px;
+    }
+    .main-text{
+        width: 552px;
+    }
+    .unscrolable{
+        height: 100px;
+        width: 100px; 
+        bottom: 115px;
+       
+}
+.forma{
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+@media screen and (max-width: 646px){
+    .diver{
+        height: 90px;
+        width: 90px;
+       
+    }
+    .footer{
+        height: 90px;
+    }
+    .main-logo{
+        height: 50px;
+        width: 50px;
+    }
+    .logo-wrap{
+        width: 50px;
+    }
+    .head-text{
+        width: 414px;
+        font-size: 20pt;
+        text-align: center;
+        margin-top: 120px;
+    }
+    .circle{
+        margin-top: 180px !important;
+        margin-bottom: 50px !important;
+        height: 414px;
+        width: 414px;
+    }
+    .vodolas{
+        height: 650px;
+    }
+    .text{
+        font-size: 60px;
+        position: absolute;
+        margin-top: 500px;
+    }
+    .main-text{
+        width: 412px;
+        font-size: 15pt;
+    }
+    .unscrolable{
+        height: 90px;
+        width: 90px; 
+        bottom: 240px;
+       
+}
+.forma{
+    width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+}
+@media screen and (max-width: 576px){
+    .diver{
+        height: 90px;
+        width: 90px;
+       
+    }
+    .footer{
+        height: 90px;
+    }
+    .main-logo{
+        height: 50px;
+        width: 50px;
+    }
+    .logo-wrap{
+        width: 50px;
+    }
+    .head-text{
+        width: 384px;
+        font-size: 20pt;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .circle{
+        margin-top: 180px !important;
+        margin-bottom: 50px !important;
+        height: 384px;
+        width: 384px;
+        margin-top: 150px !important;
+    }
+    .vodolas{
+        height: 600px;
+    }
+    .text{
+        font-size: 50px;
+        position: absolute;
+        margin-top: 450px;
+    }
+    .main-text{
+        width: 382px;
+        font-size: 15pt;
+    }
+    .unscrolable{
+        height: 90px;
+        width: 90px; 
+        bottom: 280px;
+        right: 10px;
+       
+}
+.forma{
+    width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
 }
